@@ -1,0 +1,64 @@
+html, body {
+    margin: 0px;
+    background: rgb(32, 32, 32);
+    height: 100%;
+}
+
+h1 {
+    font-weight: bolder;
+    color: rgb(41, 236, 243);
+}
+
+p {
+    font-size: larger;
+    font-weight: bolder;
+    color: whitesmoke;
+}
+
+header {
+    background: rgb(12, 12, 12);
+    padding: 20px 20px 20px 5px;
+    height: 5%;
+}
+
+aside {
+    display: table;
+    background: rgb(19, 19, 19);
+    width: 200px;
+    height: 88.5%;
+    padding: 10px;
+}
+
+main {
+    position: relative;
+    top: 20px;
+    left: 50px;
+    width: 90%;
+}
+
+.linksimples {
+    color: rgb(41, 236, 243);
+}
+
+.bloco {
+    color: rgb(41, 236, 243);
+    background: rgb(0, 0, 0);
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+    margin: 5px;
+}
+
+.header {
+    position: relative;
+    top: 15px;
+}
+
+.float-left {
+    float: left;
+}
+
+.justify {
+    text-align: justify;
+    text-justify: inter-word;
+}
