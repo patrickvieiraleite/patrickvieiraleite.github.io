@@ -16,28 +16,26 @@ p {
 }
 
 header {
+    display: flex;
+    align-items: center;
     background: rgb(12, 12, 12);
-    position: fixed;
     width: 100%;
     height: 8%;
-    top: 0;
-    margin-bottom: 0px;
     padding-left: 5px;
 }
 
 aside {
-    display: table;
+    display: block;
     background: rgb(19, 19, 19);
     width: 200px;
-    height: 100%;
+    height: 85%;
     padding: 10px;
-    margin-top: 50px;
 }
 
 main {
     position: relative;
-    top: 80px;
-    left: 50px;
+    top: 5%;
+    left: 5%;
     width: 90%;
 }
 
@@ -46,17 +44,14 @@ main {
 }
 
 .bloco {
+    display:flex;
+    justify-content: center;
+    align-items: center;
     color: rgb(41, 236, 243);
     background: rgb(0, 0, 0);
-    padding: 20px;
-    width: 200px;
-    height: 150px;
+    width: 120%;
+    height: 5vh;
     margin: 5px;
-}
-
-.header {
-    position: relative;
-    top: 25px;
 }
 
 .float-left {
